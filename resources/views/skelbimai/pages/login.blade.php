@@ -1,6 +1,6 @@
 @extends('skelbimai/main')
 
-@include('skelbimai/_partials/head')
+@include('skelbimai/_partials/header')
 
 
 

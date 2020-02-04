@@ -22,13 +22,12 @@
     <link rel="stylesheet" href="{!! asset ('css/style.css') !!}" />
 
 
-
-
-    <title>Document</title>
+<title>Skelbimai</title>
 </head>
 <body>
-@include('skelbimai/_partials/head')
+
 @include('skelbimai/_partials/header')
+@yield(('search'))
 @yield('content')
 @include('skelbimai/_partials/footer')
 

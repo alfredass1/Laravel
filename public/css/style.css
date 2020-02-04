@@ -167,8 +167,9 @@ h1, h2, h3, h4, h5,
   box-shadow: 20px 0 0 #000, -20px 0 0 #000; }
 
 .text-white-opacity-05 {
-  color: rgba(255, 255, 255, 0.5); }
+  color: rgba(255, 255, 255, 0.5);
 
+}
 .text-black-opacity-05 {
   color: rgba(0, 0, 0, 0.5); }
 
