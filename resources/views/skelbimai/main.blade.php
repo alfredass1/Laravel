@@ -7,9 +7,6 @@
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800" rel="stylesheet">
 
     <link rel="stylesheet" href="{!! asset ('fonts/icomoon/style.css') !!}" />
-    <link rel="stylesheet" href="{!! asset ('css/bootstrap/bootstrap-grid.css') !!}" />
-    <link rel="stylesheet" href="{!! asset ('css/bootstrap/bootstrap-reboot.css') !!}" />
-
 
     <link rel="stylesheet" href="{!! asset ('css/bootstrap.min.css') !!}" />
     <link rel="stylesheet" href="{!! asset ('css/magnific-popup.css') !!}" />
