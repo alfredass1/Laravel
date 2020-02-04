@@ -32,7 +32,6 @@
 <body>
 @include('skelbimai/_partials/head')
 @include('skelbimai/_partials/header')
-@include('skelbimai/_partials/content')
 @yield('content')
 @include('skelbimai/_partials/footer')
 
