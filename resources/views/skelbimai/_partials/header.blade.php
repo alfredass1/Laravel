@@ -1,14 +1,3 @@
-<div class="site-wrap">
-
-    <div class="site-mobile-menu">
-        <div class="site-mobile-menu-header">
-            <div class="site-mobile-menu-close mt-3">
-                <span class="icon-close2 js-menu-toggle"></span>
-            </div>
-        </div>
-        <div class="site-mobile-menu-body"></div>
-    </div>
-
 <header class="site-navbar container py-0 " role="banner">
 
     <!-- <div class="container"> -->
@@ -22,7 +11,7 @@
 
                 <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
                     <li class="active"><a href="index.html">Pradinis</a></li>
-                    <li><a href="listings.html">Skelbimai</a></li>
+                    <li><a href="/skelbimai">Skelbimai</a></li>
                     <li class="has-children">
                         <a href="about.html">Apie</a>
                         <ul class="dropdown">

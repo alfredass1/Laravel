@@ -12,4 +12,4 @@
 */
 
 Route::get('/','HomeController@index');
-Route::get('/profile','HomeController@ShowProfile');
+Route::get('/skelbimai','HomeController@ShowSkelbimai');

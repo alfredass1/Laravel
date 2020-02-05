@@ -26,9 +26,21 @@
 </head>
 <body>
 
+<div class="site-wrap">
+
+    <div class="site-mobile-menu">
+        <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close mt-3">
+                <span class="icon-close2 js-menu-toggle"></span>
+            </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+    </div>
+
 @include('skelbimai/_partials/header')
-@yield(('search'))
+@include('skelbimai/_partials/search')
 @yield('content')
+@include('skelbimai/_partials/category')
 @include('skelbimai/_partials/footer')
 
 
