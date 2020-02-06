@@ -48,6 +48,11 @@ class HomeController extends Controller
         return view('skelbimai.pages.prideti');
     }
 
+    public function showSkelbimas()
+    {
+
+        return view('skelbimai.pages.skelbimas');
+    }
 
 
 

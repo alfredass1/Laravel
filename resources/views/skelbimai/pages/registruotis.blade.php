@@ -1,6 +1,6 @@
 @extends('skelbimai/main')
 
-<div class="site-blocks-cover inner-page-cover overlay" style="background-image: url(images/hero_2.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+<div class="site-blocks-cover inner-page-cover overlay" style="background-image: url(images/hero_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
     <div class="container">
         <div class="row align-items-center justify-content-center text-center">
 
@@ -9,8 +9,8 @@
 
                 <div class="row justify-content-center mt-5">
                     <div class="col-md-8 text-center">
-                        <h1>Sign Up</h1>
-                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                        <h1>Registruotis</h1>
+                        <p class="mb-0"></p>
                     </div>
                 </div>
 
@@ -26,35 +26,35 @@
         <div class="row justify-content-center">
             <div class="col-md-7 mb-5"  data-aos="fade">
 
-                <h2 class="mb-5 text-black">Register</h2>
+                <h2 class="mb-5 text-black">Registruokitės</h2>
 
                 <form action="#" class="p-5 bg-white">
 
                     <div class="row form-group">
 
                         <div class="col-md-12">
-                            <label class="text-black" for="email">Email</label>
+                            <label class="text-black" for="email">El.paštas</label>
                             <input type="email" id="email" class="form-control">
                         </div>
                     </div>
 
                     <div class="row form-group">
                         <div class="col-md-12">
-                            <label class="text-black" for="subject">Password</label>
+                            <label class="text-black" for="subject">Slaptažodis</label>
                             <input type="password" id="subject" class="form-control">
                         </div>
                     </div>
 
                     <div class="row form-group">
                         <div class="col-md-12">
-                            <label class="text-black" for="subject">Re-type Password</label>
+                            <label class="text-black" for="subject">Pakartokite slaptažodį</label>
                             <input type="password" id="subject" class="form-control">
                         </div>
                     </div>
 
                     <div class="row form-group">
                         <div class="col-12">
-                            <p>Have an account? <a href="login.html">Log In</a></p>
+                            <p>Turite paskyrą? <a href="/prisijungti">Prisijungti</a></p>
                         </div>
                     </div>
 

@@ -18,3 +18,4 @@ Route::get('/kontaktai','HomeController@ShowKontaktai');
 Route::get('/prisijungti','HomeController@ShowPrisijungti');
 Route::get('/registruotis','HomeController@ShowRegistruotis');
 Route::get('/prideti','HomeController@ShowPrideti');
+Route::get('/skelbimas','HomeController@ShowSkelbimas');
