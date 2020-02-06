@@ -35,7 +35,7 @@
                                         <option value="">Baldai</option>
                                         <option value="">Elektronika</option>
                                         <option value="">Automobiliai</option>
-                                        <option value="">kiti</option>
+                                        <option value="">Kiti</option>
                                     </select>
                                 </div>
                             </div>

@@ -11,9 +11,8 @@
                     <div class="col-md-3">
                         <h2 class="footer-heading mb-4">Navigacija</h2>
                         <ul class="list-unstyled">
-                            <li><a href="#">Apie mus</a></li>
-                            <li><a href="#">Paslaugos</a></li>
-                            <li><a href="#">Susisiekite</a></li>
+                            <li><a href="/apie">Apie mus</a></li>
+                            <li><a href="/kontaktai">Susisiekite</a></li>
                         </ul>
                     </div>
                     <div class="col-md-3">
