@@ -1,4 +1,5 @@
 @extends('skelbimai/main')
+
 <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url(images/hero_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
     <div class="container">
         <div class="row align-items-center justify-content-center text-center">
@@ -8,8 +9,8 @@
 
                 <div class="row justify-content-center mt-5">
                     <div class="col-md-8 text-center">
-                        <h1>Happy Buying Online</h1>
-                        <p class="mb-0">Don St, Brooklyn, New York</p>
+                        <h1>Pridėti skelbimą</h1>
+                        <p class="mb-0"></p>
                     </div>
                 </div>
 
@@ -19,32 +20,93 @@
     </div>
 </div>
 
-<div class="site-section">
+
+<div class="site-section bg-light">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
+        <div class="row justify-content-center">
+            <div class="col-md-7 mb-5"  data-aos="fade">
 
-                <div class="mb-4" style="margin-top: -150px;">
-                    <div class="slide-one-item home-slider owl-carousel">
-                        <div><img src="images/img_2.jpg" alt="Image" class="img-fluid rounded"></div>
-                        <div><img src="images/img_3.jpg" alt="Image" class="img-fluid rounded"></div>
-                        <div><img src="images/img_4.jpg" alt="Image" class="img-fluid rounded"></div>
-                        <div><img src="images/img_1.jpg" alt="Image" class="img-fluid rounded"></div>
+                <h2 class="mb-5 text-black">Pridėkite skelbimą</h2>
+
+                <form action="#" class="p-5 bg-white">
+
+                    <div class="row form-group">
+
+                        <div class="col-md-12">
+                            <label class="text-black" for="email">Pavadinimas</label>
+                            <input type="text" id="title" class="form-control">
+                        </div>
                     </div>
-                </div>
 
-                <h4 class="h5 mb-4 text-black">Description</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error repellat architecto maiores vero, quasi dolor, accusantium autem aliquam, ullam sequi saepe illum eaque aperiam eius amet! Necessitatibus nam sapiente obcaecati sit, fugit omnis non sunt distinctio aliquid, quibusdam excepturi hic?</p>
-                <p>Nisi, error. Molestias, quidem eaque sequi aut perspiciatis assumenda obcaecati ut quod eius reprehenderit. Iure rem numquam totam odio dignissimos aspernatur soluta. Corporis suscipit modi iste consequatur, repellat nihil omnis molestias optio. Dolorem ullam eius officia, eum ratione dolorum assumenda.</p>
-                <p>Soluta corporis blanditiis cupiditate debitis eveniet, temporibus ut cumque sint repudiandae quidem tenetur commodi id, quam. Sapiente corrupti magnam quis nulla, asperiores neque tenetur labore aperiam provident nostrum sequi delectus voluptatem fuga officiis repellat, ratione aspernatur eius repellendus modi reprehenderit.</p>
-                <p>Sapiente molestias voluptate cupiditate blanditiis quasi qui aperiam accusamus aspernatur ipsam velit nihil quaerat voluptatum soluta laboriosam ipsum veritatis at reiciendis quod voluptates, saepe harum dignissimos placeat dolorum aliquid! Quod quasi praesentium optio ratione non et sit quos excepturi cum?</p>
 
-                <p class="mt-3"><a href="#" class="btn btn-primary">Get In Touch</a></p>
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <label class="text-black" for="subject">Kategorija</label>
+                            <select class="form-control" id="title" name="title" >
+                                @foreach($categories as $category)
+                                 <option value="{{$category->id}}">{{$category->title}}</option>
+                                @endforeach
+                            </select>
 
+                        </div>
+                    </div>
+
+
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <label class="text-area" for="subject">Aprašymas</label>
+                            <textarea class="form-control" id="description" rows="3"></textarea>
+                        </div>
+                    </div>
+
+
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <label class="text-black" for="subject">Kaina</label>
+                            <input type="text" id="price" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <label class="text-black" for="subject">Pridėti paveikslėlį</label>
+                            <input type="file" id="img" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <label class="text-black" for="subject">El.Paštas</label>
+                            <input type="text" id="email" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <label class="text-black" for="subject">Vieta</label>
+                            <input type="text" id="location" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <label class="text-black" for="subject">Telefonas</label>
+                            <input type="text" id="phone" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <input type="submit" value="Pridėti" class="btn btn-primary py-2 px-4 text-white">
+                        </div>
+                    </div>
+
+
+                </form>
             </div>
-            <div class="col-lg-3 ml-auto">
 
-            </div>
         </div>
     </div>
 </div>
+
+
