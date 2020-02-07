@@ -9,7 +9,7 @@
 
                 <div class="row justify-content-center mt-5">
                     <div class="col-md-8 text-center">
-                        <h1>Valdyti kategorija</h1>
+                        <h1>Valdyti skelbimą</h1>
                         <p class="mb-0"></p>
                     </div>
                 </div>
@@ -23,24 +23,32 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-6 offset-3">
-            <table class="table border-top">
+            <table class="table">
                 <thead class="thead-dark">
                 <tr>
-                    <th scope="col">Kategorijos</th>
+                    <th scope="col">Pavadinimas</th>
+                    <th scope="col">Aprašymas</th>
+                    <th scope="col">El.Paštas</th>
+                    <th scope="col">Vieta</th>
+                    <th scope="col">Telefonas</th>
                     <th scope="col">Veiksmai</th>
                 </tr>
                 </thead>
                 <tbody>
-                @foreach($categories as $category)
+                @foreach($ads as $ad)
                     <tr>
-                        <td>{{$category->title}}</td>
-                        <td><a href="/trinti-kategorija/{{$category->id}}">Salinti</a></td>
+                        <td>{{$ad->title}}</td>
+                        <td>{{$ad->description}}</td>
+                        <td>{{$ad->email}}</td>
+                        <td>{{$ad->location}}</td>
+                        <td>{{$ad->phone}}</td>
+                        <td><a href="/trinti-skelbima/{{$ad->id}}">Salinti</a></td>
                     </tr>
                 @endforeach
                 </tbody>
             </table>
             <div class="d-flex justify-content-center">
-                <a class="btn btn-primary" href="/kategorija" role="button">Pridėti kategorija</a>
+                <a class="btn btn-primary" href="/prideti" role="button">Pridėti skelbimą</a>
             </div>
             <br>
         </div>

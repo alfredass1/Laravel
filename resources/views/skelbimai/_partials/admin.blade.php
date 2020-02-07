@@ -4,5 +4,6 @@
      <a href="/prideti" class="">Pridėti skelbima</a>
     <a href="/kategorija" class="">Pridėti kategorija</a>
         <a href="/valdyti-kategorija" class="">Valdyti Kategorija</a>
+        <a href="/valdyti-skelbima" class="">Valdyti skelbimą</a>
     </div>
 </div>

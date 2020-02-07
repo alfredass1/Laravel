@@ -20,6 +20,9 @@ Route::get('/registruotis','HomeController@ShowRegistruotis');
 Route::get('/prideti','AdController@addSkelbimas');
 Route::get('/skelbimas','HomeController@ShowSkelbimas');
 Route::get('/kategorija','CategoryController@AddKategorija');
-Route::POST('/store-category','CategoryController@StoreCategory');
+Route::POST('/store-category','CategoryController@StoreCategory'); //s-c yra uzklausa ne psl
 Route::get('/valdyti-kategorija','CategoryController@valdytiKategorija');
-Route::get('/trintiKategorija/{category}','CategoryController@trintiKategorija');
+Route::get('/trinti-kategorija/{category}','CategoryController@trintiKategorija'); //t-k yra uzklausa ne psl
+Route::POST('/store-ad','AdController@storeAd');
+Route::get('/valdyti-skelbima','AdController@valdytiSkelbima');
+Route::get('/trinti-skelbima/{ad}','AdController@trintiSkelbima'); //t-s yra uzklausa ne psl

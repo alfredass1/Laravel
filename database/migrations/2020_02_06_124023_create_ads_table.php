@@ -26,7 +26,6 @@ class CreateAdsTable extends Migration
             $table->timestamps();
         });
     }
-
     /**
      * Reverse the migrations.
      *

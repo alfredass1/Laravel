@@ -20,29 +20,37 @@
     </div>
 </div>
 
-
 <div class="site-section bg-light">
     <div class="container">
+
+        @if($errors->any())
+            <div class="alert alert-danger">
+                <ul>
+                    @foreach($errors->all() as $error)
+                        <li>{{$error}}</li>
+                    @endforeach
+                </ul>
+            </div>
+        @endif
+        <form method="POST" action="/store-ad">
+    @csrf
         <div class="row justify-content-center">
             <div class="col-md-7 mb-5"  data-aos="fade">
 
                 <h2 class="mb-5 text-black">Pridėkite skelbimą</h2>
 
-                <form action="#" class="p-5 bg-white">
-
                     <div class="row form-group">
 
                         <div class="col-md-12">
                             <label class="text-black" for="email">Pavadinimas</label>
-                            <input type="text" id="title" class="form-control">
+                            <input type="text" id="title" name="title" class="form-control">
                         </div>
                     </div>
-
 
                     <div class="row form-group">
                         <div class="col-md-12">
                             <label class="text-black" for="subject">Kategorija</label>
-                            <select class="form-control" id="title" name="title" >
+                            <select class="form-control" id="title" name="category" >
                                 @foreach($categories as $category)
                                  <option value="{{$category->id}}">{{$category->title}}</option>
                                 @endforeach
@@ -55,7 +63,7 @@
                     <div class="row form-group">
                         <div class="col-md-12">
                             <label class="text-area" for="subject">Aprašymas</label>
-                            <textarea class="form-control" id="description" rows="3"></textarea>
+                            <textarea class="form-control" id="description" name="description" rows="3"></textarea>
                         </div>
                     </div>
 
@@ -63,35 +71,35 @@
                     <div class="row form-group">
                         <div class="col-md-12">
                             <label class="text-black" for="subject">Kaina</label>
-                            <input type="text" id="price" class="form-control">
+                            <input type="text" id="price" name="price" class="form-control">
                         </div>
                     </div>
 
                     <div class="row form-group">
                         <div class="col-md-12">
                             <label class="text-black" for="subject">Pridėti paveikslėlį</label>
-                            <input type="file" id="img" class="form-control">
+                            <input type="file" id="img" name="image" class="form-control">
                         </div>
                     </div>
 
                     <div class="row form-group">
                         <div class="col-md-12">
                             <label class="text-black" for="subject">El.Paštas</label>
-                            <input type="text" id="email" class="form-control">
+                            <input type="text" id="email" name="email" class="form-control">
                         </div>
                     </div>
 
                     <div class="row form-group">
                         <div class="col-md-12">
                             <label class="text-black" for="subject">Vieta</label>
-                            <input type="text" id="location" class="form-control">
+                            <input type="text" id="location" name="location" class="form-control">
                         </div>
                     </div>
 
                     <div class="row form-group">
                         <div class="col-md-12">
                             <label class="text-black" for="subject">Telefonas</label>
-                            <input type="text" id="phone" class="form-control">
+                            <input type="text" id="phone" name="phone" class="form-control">
                         </div>
                     </div>
 
@@ -102,11 +110,13 @@
                     </div>
 
 
-                </form>
             </div>
-
         </div>
+        </form>
     </div>
+
 </div>
+
+
 
 
