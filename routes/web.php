@@ -26,3 +26,5 @@ Route::get('/trinti-kategorija/{category}','CategoryController@trintiKategorija'
 Route::POST('/store-ad','AdController@storeAd');
 Route::get('/valdyti-skelbima','AdController@valdytiSkelbima');
 Route::get('/trinti-skelbima/{ad}','AdController@trintiSkelbima'); //t-s yra uzklausa ne psl
+Route::get('/redaguotiSkelbima/ad/{ad}', 'AdController@redaguotiSkelbima');
+Route::get('/redaguoti_skelbima/{ad}', 'AdController@redaguoti_skelbima');

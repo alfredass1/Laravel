@@ -17,7 +17,7 @@ class HomeController extends Controller
         $categories = Category::all();
         $ads = Ad::select('ads.id', 'ads.title', 'ads.description','ads.price', 'ads.email','ads.phone',
             'ads.location','ads.catid','categories.title')->join('categories','categories.id',"=",'ads.catid')->paginate(2);
-        return view('skelbimai.pages.skelbimai' ,compact('ads','categories'));
+        return view('skelbimai.pages.skelbimai', compact('ads','categories'));
     }
 
 

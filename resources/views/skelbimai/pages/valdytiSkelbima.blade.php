@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row align-items-center justify-content-center text-center">
 
-            <div class="col-md-10" data-aos="fade-up" data-aos-delay="400">
+            <div class="col-md-8" data-aos="fade-up" data-aos-delay="400">
 
 
                 <div class="row justify-content-center mt-5">
@@ -22,7 +22,7 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-sm-6 offset-3">
+        <div class="col-sm-6 offset-1">
             <table class="table">
                 <thead class="thead-dark">
                 <tr>
@@ -33,6 +33,7 @@
                     <th scope="col">Telefonas</th>
                     <th scope="col">Kategorija</th>
                     <th scope="col">Veiksmai</th>
+                    <th scope="col"></th>
                 </tr>
                 </thead>
                 <tbody>
@@ -49,11 +50,12 @@
                             @endif
                         @endforeach
                         <td><a href="/trinti-skelbima/{{$ad->id}}">Salinti</a></td>
+                        <td><a href="/redaguotiSkelbima/ad/{{$ad->id}}">Redaguoti</a></td>
                     </tr>
                 @endforeach
                 </tbody>
             </table>
-            <div class="d-flex justify-content-center">
+            <div class="buton">
                 <a class="btn btn-primary" href="/prideti" role="button">Pridėti skelbimą</a>
             </div>
             <br>

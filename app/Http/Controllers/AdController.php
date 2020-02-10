@@ -23,7 +23,6 @@ class AdController extends Controller
             'price' => 'required',
             'email' => 'required',
             'location' => 'required',
-            'catid' =>'required'
         ]);
         $ad = Ad::create([
             'title' => request('title'), //name
@@ -32,7 +31,7 @@ class AdController extends Controller
             'email' => request('email'),
             'phone' => request('phone'),
             'location' => request('location'),
-            'catid' => request('catid')
+
         ]);
 
         return redirect('/valdyti-skelbima');
@@ -51,6 +50,42 @@ class AdController extends Controller
     {
         $ad->delete();
         return redirect('/valdyti-skelbima');
+    }
+
+
+
+    public function redaguotiSkelbima(Ad $ad){
+
+        $categories = Category::all();
+        return view ('skelbimai.pages.redaguotiSkelbima', compact('ad','categories'));
+
+    }
+
+    public function redaguoti_Skelbima(Request $request, Ad $ad){
+
+//        dd($ad);
+
+        $validateData = $request->validate([
+            'title' => 'required',
+            'description' => 'required',
+            'price' => 'required',
+            'email' => 'required',
+            'phone' => 'required',
+            'location' => 'required',
+        ]);
+
+        Ad::where('id', $ad->id )
+            ->update(['title' => request('title'),
+                'description' => request('description'),
+                'price' => request('price'),
+                'email' => request('email'),
+                'phone' => request('phone'),
+                'location' => request('location'),
+            ]);
+
+
+        return redirect('/valdyti-skelbima');
+
     }
 
 }

@@ -38,8 +38,11 @@
                                     <span class="category">{{$category->title}}</span>
                                 @endif
                             @endforeach
+
+                            @foreach($ads as $pavadinimas)
                             <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                            <h3><a href="/skelbimas">{{$ad->title}}</a></h3>
+                            <h3><a href="/skelbimas">{{$pavadinimas->title}}</a></h3>
+                             @endforeach
                             <p>{{$ad->description}}</p>
                             <address>{{$ad->location}}</address>
                             <p class="mb-0">
