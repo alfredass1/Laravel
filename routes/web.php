@@ -18,7 +18,7 @@ Route::get('/kontaktai','HomeController@ShowKontaktai');
 Route::get('/prisijungti','HomeController@ShowPrisijungti');
 Route::get('/registruotis','HomeController@ShowRegistruotis');
 Route::get('/prideti','AdController@addSkelbimas');
-Route::get('/skelbimas','HomeController@ShowSkelbimas');
+Route::get('/skelbimas/{ad}','HomeController@ShowSkelbimas');
 Route::get('/kategorija','CategoryController@AddKategorija');
 Route::POST('/store-category','CategoryController@StoreCategory'); //s-c yra uzklausa ne psl
 Route::get('/valdyti-kategorija','CategoryController@valdytiKategorija');

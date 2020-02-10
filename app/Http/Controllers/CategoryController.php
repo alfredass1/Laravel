@@ -22,6 +22,7 @@ class CategoryController extends Controller
             'title' => 'required'
         ]);
         $category = Category::create([
+            'id' => request('id'),
             'title' => request('title'),
         ]);
 

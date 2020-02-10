@@ -18,7 +18,12 @@ class AdController extends Controller
     {
 
         $validateData = $request->validate([
-            'title' => 'required'
+            'title' => 'required',
+            'description' => 'required',
+            'price' => 'required',
+            'email' => 'required',
+            'location' => 'required',
+            'catid' =>'required'
         ]);
         $ad = Ad::create([
             'title' => request('title'), //name
@@ -27,6 +32,7 @@ class AdController extends Controller
             'email' => request('email'),
             'phone' => request('phone'),
             'location' => request('location'),
+            'catid' => request('catid')
         ]);
 
         return redirect('/valdyti-skelbima');
@@ -35,7 +41,8 @@ class AdController extends Controller
         public function valdytiSkelbima()
         {
         $ads = Ad::all();
-        return view('skelbimai.pages.valdytiSkelbima',compact('ads'));
+        $categories = Category::all();
+        return view('skelbimai.pages.valdytiSkelbima',compact('ads','categories'));
 
         }
 

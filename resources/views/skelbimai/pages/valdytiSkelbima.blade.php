@@ -31,6 +31,7 @@
                     <th scope="col">El.Paštas</th>
                     <th scope="col">Vieta</th>
                     <th scope="col">Telefonas</th>
+                    <th scope="col">Kategorija</th>
                     <th scope="col">Veiksmai</th>
                 </tr>
                 </thead>
@@ -42,6 +43,11 @@
                         <td>{{$ad->email}}</td>
                         <td>{{$ad->location}}</td>
                         <td>{{$ad->phone}}</td>
+                        @foreach($categories as $category)
+                            @if($ad->catid == $category->id)
+                                <td>{{$category->title}}</td>
+                            @endif
+                        @endforeach
                         <td><a href="/trinti-skelbima/{{$ad->id}}">Salinti</a></td>
                     </tr>
                 @endforeach
