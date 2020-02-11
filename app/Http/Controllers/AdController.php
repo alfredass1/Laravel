@@ -31,6 +31,7 @@ class AdController extends Controller
             'email' => request('email'),
             'phone' => request('phone'),
             'location' => request('location'),
+            'catid' => request ('catid')
 
         ]);
 

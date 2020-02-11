@@ -33,16 +33,12 @@
                     <div class="d-block d-md-flex listing">
                         <a href="/skelbimas/{{$ad->id}}" class="img d-block" style="background-image: url('images/img_3.jpg')"></a>
                         <div class="lh-content">
-                            @foreach($categories as $category)
-                                @if($ad->catid == $category->id)
-                                    <span class="category">{{$category->title}}</span>
-                                @endif
-                            @endforeach
 
-                            @foreach($ads as $pavadinimas)
+                            <span class="category">{{$ad->pavadinimas}}</span>
+
                             <a href="#" class="bookmark"><span class="icon-heart"></span></a>
-                            <h3><a href="/skelbimas">{{$pavadinimas->title}}</a></h3>
-                             @endforeach
+                            <h3><a href="/skelbimas">{{$ad->title}}</a></h3>
+
                             <p>{{$ad->description}}</p>
                             <address>{{$ad->location}}</address>
                             <p class="mb-0">

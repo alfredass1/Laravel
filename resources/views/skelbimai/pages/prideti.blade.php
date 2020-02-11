@@ -51,11 +51,10 @@
                         <div class="col-md-12">
                             <label class="text-black" for="title">Kategorija</label>
                                 @foreach($categories as $category)
-                                <select class="form-control" name="catid">
+                            <select class="form-control" name="catid">
                                  <option value="{{$category->id}}">{{$category->title}}</option>
-
                             </select>
-                            @endforeach
+                                @endforeach
                         </div>
                     </div>
 
