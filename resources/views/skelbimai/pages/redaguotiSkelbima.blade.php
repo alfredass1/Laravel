@@ -52,11 +52,12 @@
                     <div class="row form-group">
                         <div class="col-md-12">
                             <label class="text-black" for="title">Kategorija</label>
-                            @foreach($categories as $category)
+
                                 <select class="form-control" name="catid">
+                                @foreach($categories as $category)
                                     <option value="{{$category->id}}">{{$category->title}}</option>
+                                @endforeach
                                 </select>
-                            @endforeach
 
                         </div>
                     </div>

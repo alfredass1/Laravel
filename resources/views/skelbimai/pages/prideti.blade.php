@@ -32,7 +32,7 @@
                 </ul>
             </div>
         @endif
-        <form method="POST" action="/store-ad">
+        <form method="POST" action="/store-ad" enctype="multipart/form-data">
     @csrf
         <div class="row justify-content-center">
             <div class="col-md-7 mb-5"  data-aos="fade">
@@ -48,14 +48,17 @@
                     </div>
 
                     <div class="row form-group">
+
                         <div class="col-md-12">
                             <label class="text-black" for="title">Kategorija</label>
-                                @foreach($categories as $category)
                             <select class="form-control" name="catid">
+                            @foreach($categories as $category)
                                  <option value="{{$category->id}}">{{$category->title}}</option>
+                            @endforeach
                             </select>
-                                @endforeach
+
                         </div>
+
                     </div>
 
 

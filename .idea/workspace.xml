@@ -2,101 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40153810-1391-465c-bcac-101ec1aecefb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdController.php" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/skelbimai/pages/prideti.blade.php" afterPath="$PROJECT_DIR$/resources/views/skelbimai/pages/prideti.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/skelbimai/pages/skelbimai.blade.php" afterPath="$PROJECT_DIR$/resources/views/skelbimai/pages/skelbimai.blade.php" />
+      <change afterPath="$PROJECT_DIR$/resources/views/skelbimai/pages/paieska.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/skelbimai.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/skelbimai.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Ad.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Ad.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/skelbimai/_partials/popular.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/skelbimai/_partials/popular.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/skelbimai/_partials/search.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/skelbimai/_partials/search.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/skelbimai/pages/prideti.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/skelbimai/pages/prideti.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/skelbimai/pages/redaguotiSkelbima.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/skelbimai/pages/redaguotiSkelbima.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/skelbimai/pages/valdytiKategorija.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/skelbimai/pages/valdytiKategorija.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/vendor/composer/" />
-    <ignored path="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir/" />
-    <ignored path="$PROJECT_DIR$/vendor/doctrine/inflector/" />
-    <ignored path="$PROJECT_DIR$/vendor/doctrine/instantiator/" />
-    <ignored path="$PROJECT_DIR$/vendor/doctrine/lexer/" />
-    <ignored path="$PROJECT_DIR$/vendor/dragonmantank/cron-expression/" />
-    <ignored path="$PROJECT_DIR$/vendor/egulias/email-validator/" />
-    <ignored path="$PROJECT_DIR$/vendor/facade/flare-client-php/" />
-    <ignored path="$PROJECT_DIR$/vendor/facade/ignition/" />
-    <ignored path="$PROJECT_DIR$/vendor/facade/ignition-contracts/" />
-    <ignored path="$PROJECT_DIR$/vendor/fideloper/proxy/" />
-    <ignored path="$PROJECT_DIR$/vendor/filp/whoops/" />
-    <ignored path="$PROJECT_DIR$/vendor/fzaninotto/faker/" />
-    <ignored path="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/" />
-    <ignored path="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color/" />
-    <ignored path="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter/" />
-    <ignored path="$PROJECT_DIR$/vendor/laravel/framework/" />
-    <ignored path="$PROJECT_DIR$/vendor/laravel/tinker/" />
-    <ignored path="$PROJECT_DIR$/vendor/league/commonmark/" />
-    <ignored path="$PROJECT_DIR$/vendor/league/commonmark-ext-table/" />
-    <ignored path="$PROJECT_DIR$/vendor/league/flysystem/" />
-    <ignored path="$PROJECT_DIR$/vendor/mockery/mockery/" />
-    <ignored path="$PROJECT_DIR$/vendor/monolog/monolog/" />
-    <ignored path="$PROJECT_DIR$/vendor/myclabs/deep-copy/" />
-    <ignored path="$PROJECT_DIR$/vendor/nesbot/carbon/" />
-    <ignored path="$PROJECT_DIR$/vendor/nikic/php-parser/" />
-    <ignored path="$PROJECT_DIR$/vendor/nunomaduro/collision/" />
-    <ignored path="$PROJECT_DIR$/vendor/opis/closure/" />
-    <ignored path="$PROJECT_DIR$/vendor/paragonie/random_compat/" />
-    <ignored path="$PROJECT_DIR$/vendor/phar-io/manifest/" />
-    <ignored path="$PROJECT_DIR$/vendor/phar-io/version/" />
-    <ignored path="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common/" />
-    <ignored path="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/" />
-    <ignored path="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/" />
-    <ignored path="$PROJECT_DIR$/vendor/phpoption/phpoption/" />
-    <ignored path="$PROJECT_DIR$/vendor/phpspec/prophecy/" />
-    <ignored path="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/" />
-    <ignored path="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/" />
-    <ignored path="$PROJECT_DIR$/vendor/phpunit/php-text-template/" />
-    <ignored path="$PROJECT_DIR$/vendor/phpunit/php-timer/" />
-    <ignored path="$PROJECT_DIR$/vendor/phpunit/php-token-stream/" />
-    <ignored path="$PROJECT_DIR$/vendor/phpunit/phpunit/" />
-    <ignored path="$PROJECT_DIR$/vendor/psr/container/" />
-    <ignored path="$PROJECT_DIR$/vendor/psr/log/" />
-    <ignored path="$PROJECT_DIR$/vendor/psr/simple-cache/" />
-    <ignored path="$PROJECT_DIR$/vendor/psy/psysh/" />
-    <ignored path="$PROJECT_DIR$/vendor/ramsey/uuid/" />
-    <ignored path="$PROJECT_DIR$/vendor/scrivo/highlight.php/" />
-    <ignored path="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup/" />
-    <ignored path="$PROJECT_DIR$/vendor/sebastian/comparator/" />
-    <ignored path="$PROJECT_DIR$/vendor/sebastian/diff/" />
-    <ignored path="$PROJECT_DIR$/vendor/sebastian/environment/" />
-    <ignored path="$PROJECT_DIR$/vendor/sebastian/exporter/" />
-    <ignored path="$PROJECT_DIR$/vendor/sebastian/global-state/" />
-    <ignored path="$PROJECT_DIR$/vendor/sebastian/object-enumerator/" />
-    <ignored path="$PROJECT_DIR$/vendor/sebastian/object-reflector/" />
-    <ignored path="$PROJECT_DIR$/vendor/sebastian/recursion-context/" />
-    <ignored path="$PROJECT_DIR$/vendor/sebastian/resource-operations/" />
-    <ignored path="$PROJECT_DIR$/vendor/sebastian/type/" />
-    <ignored path="$PROJECT_DIR$/vendor/sebastian/version/" />
-    <ignored path="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/console/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/css-selector/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/debug/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/error-handler/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/event-dispatcher/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/finder/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/http-foundation/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/http-kernel/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/mime/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/polyfill-iconv/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/polyfill-php72/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/polyfill-php73/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/process/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/routing/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/service-contracts/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/translation/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/translation-contracts/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/var-dumper/" />
-    <ignored path="$PROJECT_DIR$/vendor/theseer/tokenizer/" />
-    <ignored path="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles/" />
-    <ignored path="$PROJECT_DIR$/vendor/vlucas/phpdotenv/" />
-    <ignored path="$PROJECT_DIR$/vendor/webmozart/assert/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,6 +22,9 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -116,139 +37,6 @@
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
     <expand />
     <select />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="AdController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CategoryController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CategoryController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-204">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="skelbimas.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/skelbimai/pages/skelbimas.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="40" column="31" lean-forward="false" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-              <folding>
-                <marker date="1581325420266" expanded="true" signature="9:25" ph="..." />
-                <marker date="1581325420266" expanded="true" signature="519:529" ph="..." />
-                <marker date="1581325420266" expanded="true" signature="579:592" ph="..." />
-                <marker date="1581325420266" expanded="true" signature="1505:1512" ph="..." />
-                <marker date="1581325420266" expanded="true" signature="1540:1556" ph="..." />
-                <marker date="1581325420266" expanded="true" signature="1590:1600" ph="..." />
-                <marker date="1581325420266" expanded="true" signature="1638:1648" ph="..." />
-                <marker date="1581325420266" expanded="true" signature="1686:1696" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="prideti.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/skelbimai/pages/prideti.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="754">
-              <caret line="53" column="69" lean-forward="true" selection-start-line="53" selection-start-column="69" selection-end-line="53" selection-end-column="69" />
-              <folding>
-                <marker date="1581419465866" expanded="true" signature="9:25" ph="..." />
-                <marker date="1581419465866" expanded="true" signature="768:782" ph="..." />
-                <marker date="1581419465866" expanded="true" signature="879:903" ph="..." />
-                <marker date="1581419465866" expanded="true" signature="935:941" ph="..." />
-                <marker date="1581419465866" expanded="true" signature="1830:1854" ph="..." />
-                <marker date="1581419465866" expanded="true" signature="1977:1988" ph="..." />
-                <marker date="1581419465866" expanded="true" signature="1977:1990" ph="..." />
-                <marker date="1581419465866" expanded="true" signature="1996:2012" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="skelbimai.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/skelbimai/pages/skelbimai.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="31" column="38" lean-forward="false" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-              <folding>
-                <marker date="1581416837465" expanded="true" signature="9:25" ph="..." />
-                <marker date="1581416837465" expanded="true" signature="1003:1014" ph="..." />
-                <marker date="1581416837465" expanded="true" signature="1161:1168" ph="..." />
-                <marker date="1581416837465" expanded="true" signature="1350:1355" ph="..." />
-                <marker date="1581416837465" expanded="true" signature="1350:1366" ph="..." />
-                <marker date="1581416837465" expanded="true" signature="1526:1531" ph="..." />
-                <marker date="1581416837465" expanded="true" signature="1526:1536" ph="..." />
-                <marker date="1581416837465" expanded="true" signature="1582:1598" ph="..." />
-                <marker date="1581416837465" expanded="true" signature="1644:1657" ph="..." />
-                <marker date="1581416837465" expanded="true" signature="2481:2494" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ad.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Ad.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Category.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Category.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -267,28 +55,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/resources/views/skelbimai/pages/skelbimai.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
-        <option value="$PROJECT_DIR$/resources/views/skelbimai/pages/prideti.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/AdController.php" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
-    <package-json value="$PROJECT_DIR$/package.json" />
-  </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+  <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/psr/log" />
       <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
@@ -379,121 +146,7 @@
       <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="302" />
-    <option name="y" value="-8" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
-  </component>
   <component name="ProjectId" id="1XM1WDh1ddjxkQxFM6YkFImG0b0" />
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="skelbimai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="skelbimai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="skelbimai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="skelbimai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="skelbimai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="bootstrap" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="skelbimai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="skelbimai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="skelbimai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="scss" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="skelbimai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="skelbimai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="skelbimai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="_partials" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="skelbimai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="skelbimai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="skelbimai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skelbimai" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-    </panes>
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -522,21 +175,6 @@
       <recent name="C:\Users\moksleivis\code\skelbimai\public" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -559,6 +197,7 @@
       <workItem from="1581055519526" duration="23516000" />
       <workItem from="1581315229347" duration="10058000" />
       <workItem from="1581415783174" duration="4034000" />
+      <workItem from="1581517199365" duration="9127000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1580816847064</created>
@@ -577,39 +216,8 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4034000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18230277" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
@@ -620,18 +228,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="160" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1580900847033" />
-    <state x="604" y="337" key="NewPhpFileDialog" timestamp="1581364837153">
+    <state x="604" y="337" key="NewPhpFileDialog" timestamp="1581518776289">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="604" y="337" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1581364837153" />
+    <state x="604" y="337" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1581518776289" />
     <state x="277" y="56" key="SettingsEditor" timestamp="1580900851375">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1580900851375" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1580931174301">
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1581517106175">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1580931174301" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581517106175" />
+    <state x="280" y="-12" width="1163" height="572" key="dock-window-1" timestamp="1581525745126">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="280" y="-12" width="1163" height="572" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1581525745126" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1581011910330">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -640,217 +252,5 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1581367001373" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/skelbimai/pages/registruotis.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1581055375028" expanded="true" signature="9:25" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/skelbimai/pages/valdytiSkelbima.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="40" column="24" lean-forward="false" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
-          <folding>
-            <marker date="1581415772286" expanded="true" signature="9:25" ph="..." />
-            <marker date="1581415772286" expanded="true" signature="1367:1378" ph="..." />
-            <marker date="1581415772286" expanded="true" signature="1435:1445" ph="..." />
-            <marker date="1581415772286" expanded="true" signature="1483:1499" ph="..." />
-            <marker date="1581415772286" expanded="true" signature="1537:1547" ph="..." />
-            <marker date="1581415772286" expanded="true" signature="1585:1598" ph="..." />
-            <marker date="1581415772286" expanded="true" signature="1636:1646" ph="..." />
-            <marker date="1581415772286" expanded="true" signature="1687:1711" ph="..." />
-            <marker date="1581415772286" expanded="true" signature="1745:1772" ph="..." />
-            <marker date="1581415772286" expanded="true" signature="1812:1828" ph="..." />
-            <marker date="1581415772286" expanded="true" signature="1963:1970" ph="..." />
-            <marker date="1581415772286" expanded="true" signature="2052:2059" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/skelbimai/_partials/newsletter.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/skelbimai/_partials/popular.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1479">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/skelbimai/pages/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <marker date="1581055375012" expanded="true" signature="9:25" ph="..." />
-            <marker date="1581055375012" expanded="true" signature="37:46" ph="..." />
-            <marker date="1581055375012" expanded="true" signature="57:84" ph="..." />
-            <marker date="1581055375012" expanded="true" signature="95:123" ph="..." />
-            <marker date="1581055375012" expanded="true" signature="134:163" ph="..." />
-            <marker date="1581055375012" expanded="true" signature="174:206" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/skelbimai/pages/redaguotiSkelbima.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1581415772270" expanded="true" signature="9:25" ph="..." />
-            <marker date="1581415772270" expanded="true" signature="37:53" ph="..." />
-            <marker date="1581415772270" expanded="true" signature="799:813" ph="..." />
-            <marker date="1581415772270" expanded="true" signature="910:934" ph="..." />
-            <marker date="1581415772270" expanded="true" signature="966:972" ph="..." />
-            <marker date="1581415772270" expanded="true" signature="1129:1136" ph="..." />
-            <marker date="1581415772270" expanded="true" signature="1420:1427" ph="..." />
-            <marker date="1581415772270" expanded="true" signature="1646:1656" ph="..." />
-            <marker date="1581415772270" expanded="true" signature="1960:1984" ph="..." />
-            <marker date="1581415772270" expanded="true" signature="2114:2127" ph="..." />
-            <marker date="1581415772270" expanded="true" signature="2133:2149" ph="..." />
-            <marker date="1581415772270" expanded="true" signature="2592:2608" ph="..." />
-            <marker date="1581415772270" expanded="true" signature="2941:2951" ph="..." />
-            <marker date="1581415772270" expanded="true" signature="3629:3639" ph="..." />
-            <marker date="1581415772270" expanded="true" signature="4002:4015" ph="..." />
-            <marker date="1581415772270" expanded="true" signature="4363:4373" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CategoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Ad.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/skelbimai/pages/prideti.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="53" column="69" lean-forward="true" selection-start-line="53" selection-start-column="69" selection-end-line="53" selection-end-column="69" />
-          <folding>
-            <marker date="1581419465866" expanded="true" signature="9:25" ph="..." />
-            <marker date="1581419465866" expanded="true" signature="768:782" ph="..." />
-            <marker date="1581419465866" expanded="true" signature="879:903" ph="..." />
-            <marker date="1581419465866" expanded="true" signature="935:941" ph="..." />
-            <marker date="1581419465866" expanded="true" signature="1830:1854" ph="..." />
-            <marker date="1581419465866" expanded="true" signature="1977:1988" ph="..." />
-            <marker date="1581419465866" expanded="true" signature="1977:1990" ph="..." />
-            <marker date="1581419465866" expanded="true" signature="1996:2012" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/skelbimai/pages/skelbimai.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="31" column="38" lean-forward="false" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-          <folding>
-            <marker date="1581416837465" expanded="true" signature="9:25" ph="..." />
-            <marker date="1581416837465" expanded="true" signature="1003:1014" ph="..." />
-            <marker date="1581416837465" expanded="true" signature="1161:1168" ph="..." />
-            <marker date="1581416837465" expanded="true" signature="1350:1355" ph="..." />
-            <marker date="1581416837465" expanded="true" signature="1350:1366" ph="..." />
-            <marker date="1581416837465" expanded="true" signature="1526:1531" ph="..." />
-            <marker date="1581416837465" expanded="true" signature="1526:1536" ph="..." />
-            <marker date="1581416837465" expanded="true" signature="1582:1598" ph="..." />
-            <marker date="1581416837465" expanded="true" signature="1644:1657" ph="..." />
-            <marker date="1581416837465" expanded="true" signature="2481:2494" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/skelbimai/pages/skelbimas.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="40" column="31" lean-forward="false" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-          <folding>
-            <marker date="1581325420266" expanded="true" signature="9:25" ph="..." />
-            <marker date="1581325420266" expanded="true" signature="519:529" ph="..." />
-            <marker date="1581325420266" expanded="true" signature="579:592" ph="..." />
-            <marker date="1581325420266" expanded="true" signature="1505:1512" ph="..." />
-            <marker date="1581325420266" expanded="true" signature="1540:1556" ph="..." />
-            <marker date="1581325420266" expanded="true" signature="1590:1600" ph="..." />
-            <marker date="1581325420266" expanded="true" signature="1638:1648" ph="..." />
-            <marker date="1581325420266" expanded="true" signature="1686:1696" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

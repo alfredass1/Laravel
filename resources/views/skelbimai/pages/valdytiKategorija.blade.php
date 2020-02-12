@@ -39,7 +39,7 @@
                 @endforeach
                 </tbody>
             </table>
-            <div class="d-flex justify-content-center">
+            <div class="d-flex">
                 <a class="btn btn-primary" href="/kategorija" role="button">Pridėti kategorija</a>
             </div>
             <br>

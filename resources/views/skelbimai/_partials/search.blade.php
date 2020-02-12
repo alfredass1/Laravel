@@ -13,29 +13,25 @@
                 </div>
 
                 <div class="form-search-wrap mb-3" data-aos="fade-up" data-aos-delay="200">
-                    <form method="post">
+                    <form method="GET" action="/search-action">
                         <div class="row align-items-center">
                             <div class="col-lg-12 mb-4 mb-xl-0 col-xl-4">
-                                <input type="text" class="form-control rounded" placeholder="Ko ieškai?">
+                                <input type="text" class="form-control rounded" name="titleForSearch" placeholder="Ko ieškai?">
                             </div>
                             <div class="col-lg-12 mb-4 mb-xl-0 col-xl-3">
                                 <div class="wrap-icon">
                                     <span class="icon icon-room"></span>
-                                    <input type="text" class="form-control rounded" placeholder="Vieta">
+                                    <input type="text" class="form-control rounded" name="locationForSearch" placeholder="Vieta">
                                 </div>
 
                             </div>
                             <div class="col-lg-12 mb-4 mb-xl-0 col-xl-3">
                                 <div class="select-wrap">
                                     <span class="icon"><span class="icon-keyboard_arrow_down"></span></span>
-                                    <select class="form-control rounded" name="" id="">
-                                        <option value="">Visi</option>
-                                        <option value="">Nekilnojamas turtas</option>
-                                        <option value="">Knygos</option>
-                                        <option value="">Baldai</option>
-                                        <option value="">Elektronika</option>
-                                        <option value="">Automobiliai</option>
-                                        <option value="">Kiti</option>
+                                    <select class="form-control rounded" name="categoryID" id="">
+                                        @foreach($categories as $category)
+                                        <option value="{{$category->id}}">{{$category->title}}</option>
+                                        @endforeach
                                     </select>
                                 </div>
                             </div>
