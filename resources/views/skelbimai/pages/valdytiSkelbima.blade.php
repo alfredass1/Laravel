@@ -1,5 +1,8 @@
 @extends('skelbimai/main')
-
+@section('content')
+    @auth()
+        @include('skelbimai/_partials/admin')
+    @endauth
 <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url(images/hero_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
     <div class="container">
         <div class="row align-items-center justify-content-center text-center">
@@ -9,7 +12,7 @@
 
                 <div class="row justify-content-center mt-5">
                     <div class="col-md-8 text-center">
-                        <h1>Valdyti skelbimą</h1>
+                        <h1>Valdyti skelbimus</h1>
                         <p class="mb-0"></p>
                     </div>
                 </div>
@@ -32,7 +35,7 @@
                     <th scope="col">Vieta</th>
                     <th scope="col">Telefonas</th>
                     <th scope="col">Kategorija</th>
-                    <th scope="col">Veiksmai</th>
+                    <th scope="col"></th>
                     <th scope="col"></th>
                 </tr>
                 </thead>
@@ -49,7 +52,7 @@
                                 <td>{{$category->kategorija}}</td>
                             @endif
                         @endforeach
-                        <td><a href="/trinti-skelbima/{{$ad->id}}">Salinti</a></td>
+                        <td><a href="/trinti-skelbima/{{$ad->id}}">Šalinti</a></td>
                         <td><a href="/redaguotiSkelbima/ad/{{$ad->id}}">Redaguoti</a></td>
                     </tr>
                 @endforeach
@@ -62,4 +65,4 @@
         </div>
     </div>
 </div>
-
+@stop
