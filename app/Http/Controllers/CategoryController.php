@@ -19,11 +19,11 @@ class CategoryController extends Controller
     {
 
         $validateData = $request->validate([
-            'title' => 'required'
+            'kategorija' => 'required'
         ]);
         $category = Category::create([
             'id' => request('id'),
-            'title' => request('title'),
+            'kategorija' => request('kategorija'),
         ]);
 
         return redirect('/valdyti-kategorija');

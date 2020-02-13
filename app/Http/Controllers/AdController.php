@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 use App\Ad;
 use App\Category;
+use File;
 use Illuminate\Http\Request;
 
 class AdController extends Controller
@@ -14,7 +15,7 @@ class AdController extends Controller
 
         }
 
-    public function storeAd(Request $request )
+    public function storeAd(Request $request)
     {
 
         $validateData = $request->validate([
@@ -29,6 +30,7 @@ class AdController extends Controller
         $path=$request->file('img')->store('public/images');
         $filename=str_replace('public/',"", $path);
 
+
         $ad = Ad::create([
             'title' => request('title'), //name
             'description' => request('description'),
@@ -36,8 +38,8 @@ class AdController extends Controller
             'email' => request('email'),
             'phone' => request('phone'),
             'location' => request('location'),
-            'catid' => request ('catid')
-            
+            'catid' => request ('catid'),
+            'img' => $filename
 
         ]);
 
@@ -70,8 +72,6 @@ class AdController extends Controller
 
     public function redaguoti_Skelbima(Request $request, Ad $ad){
 
-//        dd($ad);
-
         $validateData = $request->validate([
             'title' => 'required',
             'description' => 'required',
@@ -79,18 +79,28 @@ class AdController extends Controller
             'email' => 'required',
             'phone' => 'required',
             'location' => 'required',
+            'img' => 'mimes:jpeg,jpg,png,gif|required|max:10000'
         ]);
 
-        Ad::where('id', $ad->id )
-            ->update(['title' => request('title'),
+        Ad::where('id', $ad->id)->update(['title' => request('title'),
                 'description' => request('description'),
                 'price' => request('price'),
                 'email' => request('email'),
                 'phone' => request('phone'),
                 'location' => request('location'),
-                'catid' => request('catid')
-            ]);
+                'catid' => request('catid'),
+                'img' => request ('img')
 
+            ]);
+            if ($request->hasFile('img'))
+            {
+                File::delete('storage/'.$ad->img);
+                $path=$request->file('img')->store('/public/');
+                $filename=str_replace('public/',"",$path);
+                    Ad::where('id',$ad->id)->update([
+                        'img'=>$filename
+                    ]);
+            }
 
         return redirect('/valdyti-skelbima');
     }

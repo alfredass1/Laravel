@@ -46,7 +46,7 @@
                         <td>{{$ad->phone}}</td>
                         @foreach($categories as $category)
                             @if($ad->catid == $category->id)
-                                <td>{{$category->title}}</td>
+                                <td>{{$category->kategorija}}</td>
                             @endif
                         @endforeach
                         <td><a href="/trinti-skelbima/{{$ad->id}}">Salinti</a></td>

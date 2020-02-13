@@ -30,7 +30,7 @@
                                     <span class="icon"><span class="icon-keyboard_arrow_down"></span></span>
                                     <select class="form-control rounded" name="categoryID" id="">
                                         @foreach($categories as $category)
-                                        <option value="{{$category->id}}">{{$category->title}}</option>
+                                        <option value="{{$category->id}}">{{$category->kategorija}}</option>
                                         @endforeach
                                     </select>
                                 </div>

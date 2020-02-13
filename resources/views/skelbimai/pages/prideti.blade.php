@@ -53,7 +53,7 @@
                             <label class="text-black" for="title">Kategorija</label>
                             <select class="form-control" name="catid">
                             @foreach($categories as $category)
-                                 <option value="{{$category->id}}">{{$category->title}}</option>
+                                 <option value="{{$category->id}}">{{$category->kategorija}}</option>
                             @endforeach
                             </select>
 
@@ -80,7 +80,7 @@
                     <div class="row form-group">
                         <div class="col-md-12">
                             <label class="text-black" for="subject">Pridėti paveikslėlį</label>
-                            <input type="file" id="img" name="image" class="form-control">
+                            <input type="file" id="img" name="img" class="form-control">
                         </div>
                     </div>
 

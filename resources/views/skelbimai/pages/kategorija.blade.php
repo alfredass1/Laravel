@@ -44,7 +44,7 @@
 
                         <div class="col-md-12">
                             <label class="text-black" for="email">Pavadinimas</label>
-                            <input type="text" id="title" name="title" class="form-control">
+                            <input type="text" id="title" name="kategorija" class="form-control">
                         </div>
                     </div>
 
