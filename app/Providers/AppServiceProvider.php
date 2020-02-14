@@ -1,9 +1,8 @@
 <?php
 
 namespace App\Providers;
-
+use Gate;
 use Illuminate\Support\ServiceProvider;
-
 class AppServiceProvider extends ServiceProvider
 {
     /**
@@ -23,6 +22,15 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+
+        Gate::define('redaguoti', function ($user, $ad) {
+            return $user->id == $ad->userID;
+
+        });
+
+        Gate::define('trinti', function ($user, $ad) {
+            return $user->id == $ad->userID;
+
+        });
     }
 }

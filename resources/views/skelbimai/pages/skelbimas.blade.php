@@ -1,8 +1,6 @@
 @extends('skelbimai/main')
 @section('content')
-    @auth()
-        @include('skelbimai/_partials/admin')
-    @endauth
+
 <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url(/images/hero_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
     <div class="container">
         <div class="row align-items-center justify-content-center text-center">
@@ -38,8 +36,23 @@
                 <p>Telefonas {{$ad->phone}}</p>
                 <p>El.paštas {{$ad->email}}</p>
 
-                <p class="mt-3"><a href="#" class="btn btn-primary">Susisiekti</a></p>
+                <a href="/komentaroForma/{{$ad->id}}" class="btn btn-primary">Komentuoti</a>
+                <a href="#" class="btn btn-primary">Susisiekti</a>
 
+                <div class="col-md-12">
+                    <hr>
+                    @if(count($ad->comments))
+                        <div class="comments">
+                           <h4>Komentarai</h4>
+                               <ul class="list-group">
+                                @foreach($ad->comments as $comment)
+                                    <li class="list-group-item">{{$comment->created_at}}<strong> {{$comment->name}}</strong></li>
+                                    <li class="list-group-item"><strong>{{$comment->comment}}</strong></li>
+                                @endforeach
+                               </ul>
+                        </div>
+                    @endif
+                </div>
             </div>
         </div>
 
