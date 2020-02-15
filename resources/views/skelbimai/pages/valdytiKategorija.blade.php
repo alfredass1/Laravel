@@ -35,7 +35,7 @@
                 @foreach($categories as $category)
                     <tr>
                         <td>{{$category->kategorija}}</td>
-                        <td><a href="/trinti-kategorija/{{$category->id}}">Salinti</a></td>
+                        <td><a href="/trinti-kategorija/{{$category->id}}">Šalinti</a></td>
                     </tr>
                 @endforeach
                 </tbody>

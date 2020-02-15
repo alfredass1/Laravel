@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40153810-1391-465c-bcac-101ec1aecefb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/skelbimai.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/skelbimai.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/skelbimai/pages/klaida.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/skelbimai/pages/klaida.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/skelbimai/pages/skelbimas.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/skelbimai/pages/skelbimas.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/skelbimai/pages/valdytiSkelbima.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/skelbimai/pages/valdytiSkelbima.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/skelbimai/pages/valdytiKategorija.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/skelbimai/pages/valdytiKategorija.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +193,7 @@
       <workItem from="1581574747731" duration="12929000" />
       <workItem from="1581590641944" duration="8705000" />
       <workItem from="1581660290672" duration="19679000" />
-      <workItem from="1581772888374" duration="2621000" />
+      <workItem from="1581772888374" duration="3383000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1580816847064</created>
