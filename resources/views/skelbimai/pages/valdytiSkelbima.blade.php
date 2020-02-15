@@ -34,7 +34,7 @@
                     <th scope="col">Telefonas</th>
                     <th scope="col">Kategorija</th>
                     <th scope="col"></th>
-                    <th scope="col"></th>
+                    <th scope="col">Veiksmai</th>
                 </tr>
                 </thead>
                 <tbody>

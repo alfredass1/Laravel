@@ -12,10 +12,9 @@
                     <div class="row justify-content-center mt-5">
                         <div class="col-md-8 text-center">
                             <h1>Klaida</h1>
-                            <p class="mb-0"></p>
+                            <p class="mb-0">Jūs neturite prieigos</p>
                         </div>
                     </div>
-
 
                 </div>
             </div>

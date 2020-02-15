@@ -30,20 +30,27 @@
                 </div>
 
                 <h4 class="h5 mb-4 text-black">Aprašymas</h4>
-                <p>{{$ad->id}}</p>
                 <p>{{$ad->description}}</p>
                 <p>Kaina {{$ad->price}}</p>
                 <p>Telefonas {{$ad->phone}}</p>
                 <p>El.paštas {{$ad->email}}</p>
 
+                @auth()
                 <a href="/komentaroForma/{{$ad->id}}" class="btn btn-primary">Komentuoti</a>
+                @endauth
+
                 <a href="#" class="btn btn-primary">Susisiekti</a>
+
+
 
                 <div class="col-md-12">
                     <hr>
                     @if(count($ad->comments))
                         <div class="comments">
                            <h4>Komentarai</h4>
+                            @guest()
+                            <p>Norite komentuoti?</p><a href="/login">Prisijunkite</a>
+                            @endguest
                                <ul class="list-group">
                                 @foreach($ad->comments as $comment)
                                     <li class="list-group-item">{{$comment->created_at}}<strong> {{$comment->name}}</strong></li>
